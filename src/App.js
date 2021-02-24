@@ -9,6 +9,7 @@ export default class App extends Component {
       { id: 3, value: 5 },
       { id: 4, value: 7 },
     ],
+
   };
   handleIncrement = (counter) => {
     const counters = [...this.state.counters];
